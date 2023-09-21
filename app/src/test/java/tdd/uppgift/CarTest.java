@@ -81,4 +81,18 @@ public class CarTest {
         assertFalse(testCar.lights);
         assertFalse(testCar.runningCar);
     }
+    @Test
+    public void testWarningLights() {
+        testCar.turnCarOn();
+        assertTrue(testCar.warningLights);
+        testCar.turnCarOff();
+        assertTrue(testCar.warningLights);
+    }
+    @Test
+    public void testAcceleration(){
+        testCar.accelerate();
+        assertEquals(5,testCar.speed);
+        testCar.accelerate();
+        assertEquals(10,testCar.speed);
+    }
 }
