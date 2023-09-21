@@ -36,6 +36,10 @@ public class Car {
     }
 
     public void accelerate() {
-        speed = speed + 5;
+        if(speed < 180){
+            speed = speed + 5;
+        } else {
+            speed = speed + 0;
+        }
     }
 }

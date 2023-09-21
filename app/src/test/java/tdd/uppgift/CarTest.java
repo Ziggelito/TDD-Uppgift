@@ -95,4 +95,11 @@ public class CarTest {
         testCar.accelerate();
         assertEquals(10,testCar.speed);
     }
+    @Test
+    public void testMaxSpeed() {
+        testCar.speed = 180;
+        testCar.accelerate();
+        assertEquals(180,testCar.speed);
+    }
+    
 }
