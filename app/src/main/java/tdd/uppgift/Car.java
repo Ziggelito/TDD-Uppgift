@@ -6,7 +6,7 @@ public class Car {
     boolean lights;
     boolean beam;
     public Car() {
-       this.lights = true;
+       this.lights = false;
     }
 
     public void turnOffLights() {
@@ -27,7 +27,7 @@ public class Car {
     public void turnCarOn() {
         this.runningCar = true;
     }
-    
+
     public void turnCarOff(){
         this.runningCar = false;
     }

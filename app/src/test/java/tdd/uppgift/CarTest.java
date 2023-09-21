@@ -25,6 +25,7 @@ public class CarTest {
     }
     @Test
     public void testLightsOn() {
+        testCar.turnOnLights();
         assertTrue(testCar.lights, "The car are on");
     }
 
@@ -74,9 +75,8 @@ public class CarTest {
     }
     @Test
     public void carOffLightsOff() {
-        if (testCar.runningCar = false){
-            assertFalse(testCar.lights);
-        }
+        assertFalse(testCar.lights);
+        assertFalse(testCar.runningCar);
     }
 
 }
