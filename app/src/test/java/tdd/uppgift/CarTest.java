@@ -6,50 +6,77 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CarTest {
+    Car testCar;
+    @BeforeEach
+    void setUp(){
+        testCar = new Car();
+    }
+
     @Test
     public void testCar() {
-        Car carCheck = new Car();
-        assertNotNull(carCheck, "Car exists");
+
+        assertNotNull(testCar, "Car exists");
 
     }
 
     @Test
     public void testLights() {
-        Car lightsCheck = new Car();
-        assertNotNull(lightsCheck.lights, "The car has lights");
+        assertNotNull(testCar.lights, "The car has lights");
     }
     @Test
     public void testLightsOn() {
-        Car lightsCheck = new Car();
-        assertTrue(lightsCheck.lights, "The car are on");
+        assertTrue(testCar.lights, "The car are on");
     }
 
     @Test
     public void testLightsOff() {
-        Car lightsCheck = new Car();
-        lightsCheck.turnOffLights();
-        assertFalse(lightsCheck.lights, "The lights are off");
+        testCar.turnOffLights();
+        assertFalse(testCar.lights, "The lights are off");
     }
 
     @Test
     public void testLightsOnAgain() {
-        Car lightsCheck = new Car();
-        lightsCheck.turnOnLights();
-        assertTrue(lightsCheck.lights, "The lights are on");
+        testCar.turnOnLights();
+        assertTrue(testCar.lights, "The lights are on");
     }
 
     @Test
     public void testLightsFull() {
-        Car lightsCheck = new Car();
-        lightsCheck.turnLightsToFull();
-        assertTrue(lightsCheck.beam, "The lights are full");
+        testCar.turnLightsToFull();
+        assertTrue(testCar.beam, "The lights are full");
     }
 
     @Test
     public void testLightsHalf() {
-        Car lightsCheck = new Car();
-        lightsCheck.turnLightsToHalf();
-        assertFalse(lightsCheck.beam, "The lights are half");
+        testCar.turnLightsToHalf();
+        assertFalse(testCar.beam, "The lights are half");
+    }
+
+    @Test
+    public void testBrakeLights() {
+        assertNotNull(testCar.brakeLights, "The car has lights");
+    }
+
+    @Test
+    public void testCarRunning(){
+        assertFalse(testCar.runningCar);
+
+    }
+    @Test
+    public void testTurnCarOff() {
+        testCar.turnCarOff();
+        assertFalse(testCar.runningCar);
+    }
+    @Test
+    public void testTurnCarOn() {
+        testCar.turnCarOn();
+        assertTrue(testCar.runningCar);
+    }
+    @Test
+    public void carOffLightsOff() {
+        if (testCar.runningCar = false){
+            assertFalse(testCar.lights);
+        }
     }
 
 }

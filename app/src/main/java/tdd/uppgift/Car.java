@@ -1,6 +1,8 @@
 package tdd.uppgift;
 
 public class Car {
+    boolean runningCar;
+    boolean brakeLights;
     boolean lights;
     boolean beam;
     public Car() {
@@ -21,5 +23,12 @@ public class Car {
 
     public void turnLightsToHalf() {
         this.beam = false;
+    }
+    public void turnCarOn() {
+        this.runningCar = true;
+    }
+    
+    public void turnCarOff(){
+        this.runningCar = false;
     }
 }
