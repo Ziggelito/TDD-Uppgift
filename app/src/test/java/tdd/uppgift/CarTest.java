@@ -108,4 +108,10 @@ public class CarTest {
         testCar.deccelerate();
         assertEquals(0,testCar.speed);
     }
+    @Test
+    public void testReverse() {
+        testCar.deccelerate();
+        assertEquals(-5,testCar.speed);
+        assertTrue(testCar.reversing());
+    }
 }

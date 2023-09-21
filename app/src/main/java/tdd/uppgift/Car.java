@@ -3,6 +3,7 @@ package tdd.uppgift;
 public class Car {
     public long speed = 0;
     public boolean warningLights = true;
+    public boolean reverse;
     boolean runningCar;
     boolean brakeLights;
     boolean lights;
@@ -45,5 +46,12 @@ public class Car {
 
     public void deccelerate() {
         speed = speed - 5;
+    }
+    public boolean reversing() {
+        if(speed < 0){
+            return true;
+        } else{
+            return false;
+        }
     }
 }
