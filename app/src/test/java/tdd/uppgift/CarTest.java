@@ -75,8 +75,10 @@ public class CarTest {
     }
     @Test
     public void carOffLightsOff() {
+        testCar.turnCarOn();
+        testCar.turnOnLights();
+        testCar.turnCarOff();
         assertFalse(testCar.lights);
         assertFalse(testCar.runningCar);
     }
-
 }

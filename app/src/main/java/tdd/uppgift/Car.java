@@ -30,5 +30,6 @@ public class Car {
 
     public void turnCarOff(){
         this.runningCar = false;
+        this.lights = false;
     }
 }
