@@ -42,4 +42,8 @@ public class Car {
             speed = speed + 0;
         }
     }
+
+    public void deccelerate() {
+        speed = speed - 5;
+    }
 }

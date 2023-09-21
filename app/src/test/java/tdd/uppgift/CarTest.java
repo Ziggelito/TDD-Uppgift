@@ -101,5 +101,11 @@ public class CarTest {
         testCar.accelerate();
         assertEquals(180,testCar.speed);
     }
-    
+    @Test
+    public void testBrakes() {
+        testCar.speed = 5;
+        assertEquals(5,testCar.speed);
+        testCar.deccelerate();
+        assertEquals(0,testCar.speed);
+    }
 }
