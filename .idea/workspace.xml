@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9809abd-7a31-4424-8966-96261a49b71d" name="Changes" comment="gradleupdate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e9809abd-7a31-4424-8966-96261a49b71d" name="Changes" comment="gradleupdate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +223,7 @@
       <workItem from="1695293266297" duration="462000" />
       <workItem from="1695293756231" duration="350000" />
       <workItem from="1695294132667" duration="17795000" />
-      <workItem from="1695641388005" duration="730000" />
+      <workItem from="1695641388005" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="-Grupp S&#10; - Sixten&#10; - Sevrin&#10; - Stefan">
       <created>1695293560680</created>
@@ -346,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695641859055</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="gradleupdate">
+      <created>1695642196270</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695642196270</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
