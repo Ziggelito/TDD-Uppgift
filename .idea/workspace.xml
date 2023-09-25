@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9809abd-7a31-4424-8966-96261a49b71d" name="Changes" comment="Going backwards">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/tdd/uppgift/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/tdd/uppgift/Car.java" afterDir="false" />
+    <list default="true" id="e9809abd-7a31-4424-8966-96261a49b71d" name="Changes" comment="gradle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +61,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -221,7 +221,7 @@
       <updated>1695293263472</updated>
       <workItem from="1695293266297" duration="462000" />
       <workItem from="1695293756231" duration="350000" />
-      <workItem from="1695294132667" duration="14933000" />
+      <workItem from="1695294132667" duration="15761000" />
     </task>
     <task id="LOCAL-00001" summary="-Grupp S&#10; - Sixten&#10; - Sevrin&#10; - Stefan">
       <created>1695293560680</created>
@@ -300,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695304577273</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gradle">
+      <created>1695638528899</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695638528899</updated>
+    </task>
+    <task id="LOCAL-00013" summary="gradle">
+      <created>1695638905547</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695638905547</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +344,7 @@
     <MESSAGE value="Hastighetgräns" />
     <MESSAGE value="Brakes!" />
     <MESSAGE value="Going backwards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Going backwards" />
+    <MESSAGE value="gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle" />
   </component>
 </project>
